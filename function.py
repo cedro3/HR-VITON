@@ -47,7 +47,6 @@ def display_movie(folder, name):
 
 # --- display_mp4 ---
 from IPython.display import display, HTML
-from IPython.display import HTML
 
 def display_mp4(path):
     from base64 import b64encode
@@ -62,7 +61,7 @@ def display_mp4(path):
 
 
 # --- display_pic ---
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt, clear_output
 from PIL import Image
 import numpy as np
 import os
